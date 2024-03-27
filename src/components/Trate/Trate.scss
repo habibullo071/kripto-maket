@@ -1,0 +1,45 @@
+.trade {
+    max-width: 100%;
+    padding: 32px;
+
+    .trade__main {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .left {
+            width: 50%;
+        }
+
+        h2 {
+            font-family: Lexend;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 50px;
+            letter-spacing: 0.10000000149011612px;
+            text-align: left;
+
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            li {
+                margin: 20px;
+                width: 40%;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+
+                img {
+                    margin-left: -90%;
+                    object-fit: contain;
+                }
+            }
+        }
+        .right{
+            object-fit: contain;
+            max-width: 50%;
+        }
+    }
+}
