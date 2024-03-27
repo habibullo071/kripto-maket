@@ -1,7 +1,8 @@
 .trade {
     max-width: 100%;
     padding: 32px;
-    .TRADE{
+
+    .TRADE {
         font-family: Lexend;
         font-size: 16px;
         font-weight: 400;
@@ -10,6 +11,7 @@
         display: flex;
         margin-left: 20px;
     }
+
     .wallet {
         font-family: Lexend;
         font-size: 16px;
@@ -49,8 +51,12 @@
                 margin: 20px;
                 width: 40%;
                 display: flex;
+                border-radius: 10px;
+                padding: 10px;
+                transition: 0.5s;
                 flex-wrap: wrap;
                 flex-direction: column;
+                box-shadow: 0 0 10px 2px rgb(240, 234, 234);
 
                 img {
                     margin-left: -90%;
@@ -94,6 +100,10 @@
                 flex-wrap: wrap;
 
                 li {
+                    box-shadow: 0 0 10px 2px rgb(240, 234, 234);
+                    transition: 0.5s;
+                    border-radius: 10px;
+                    padding: 10px;
                     margin: 20px;
                     width: 40%;
                     display: flex;
